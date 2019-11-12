@@ -1,2 +1,3 @@
 # ejercicio-14-primera-parte-gaboandres1
-### Correr el makefile en la consola.
+### Correr el makefile en la consola. make clean elimina los archivos temporales.
+### La solución son las imágenes fase.png y grafica.png. Estas se esperaba que fueran senos y cosenos, sin embargo el método de Euler es inestable para este valor de h. El error puede ser corregido si se disminuye h o bien si se actualiza la velocidad anterior justo después de evolucionar la velocidad siguiente (como hice al principio, en el commit 2).
